@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <h1 class="logo">ADVENTURE</h1>
+      <ul class="nav-links">
+        <li class="active"><a href="#"></a>Home</li>
+        <li><a href="#"></a>Tours</li>
+        <li><a href="#"></a>Explore</li>
+        <li><a href="#"></a>About</li>
+        <li class="ctn"><a href="#"></a>Contact</li>
+      </ul>
+      <img src="./img/menu-btn.png" class="menu-btn" />
+    </nav>
+
+    <header>
+      <div class="header-content">
+        <h2>Explore The Colorful World</h2>
+        <div class="line"></div>
+        <h1>A COLORFUL GIFT</h1>
+        <a href="#" class="ctn">Learn More</a>
+      </div>
+    </header>
+
+    <section class="events">
+      <div class="title">
+        <h1>Upcoming Events</h1>
+        <div class="line"></div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img src="./img/img1.png" alt="" />
+          <h4>Everent Camp Track</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae
+            officia voluptatum.
+          </p>
+          <a class="ctn">Learn More</a>
+        </div>
+        <div class="col">
+          <img src="./img/img2.png" alt="" />
+          <h4>Walking Holiday</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae
+            officia voluptatum.
+          </p>
+          <a class="ctn">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="explore">
+      <div class="explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae
+          officia voluptatum.
+        </p>
+        <a class="ctn">Learn More</a>
+      </div>
+    </section>
+
+    <section class="tours">
+      <div class="row">
+        <div class="col content-col">
+          <h1>UPCOMING TOURS & DESTINATION</h1>
+          <div class="line"></div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+            reprehenderit corporis.
+          </p>
+          <a class="ctn">Learn More</a>
+        </div>
+        <div class="col image-col">
+          <div class="image-gallery">
+            <img src="./img/img3.png" />
+            <img src="./img/img4.png" />
+            <img src="./img/img5.png" />
+            <img src="./img/img6.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor tempore
+        quidem corporis assumenda provident.
+      </p>
+      <p>Copyright 2023 @Saim Fayyaz</p>
+    </section>
+
+    <script>
+      const menuBtn = document.querySelector(".menu-btn");
+      const navLinks = document.querySelector(".nav-links");
+
+      menuBtn.addEventListener("click", () => {
+        navLinks.classList.toggle("mobile-menu");
+      });
+    </script>
+  </body>
+</html>
